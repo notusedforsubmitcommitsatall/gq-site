@@ -1,0 +1,29 @@
+body {
+  background-color: #000000;
+  background-repeat: repeat;
+  background-image: url("/img/background.gif");
+}
+
+.animated_text {
+  color: #ffffff;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-animation: animated_background 1s infinite alternate;
+}
+
+@keyframes animated_background {
+  0% {-webkit-text-stroke-color: #ff8b00}
+  10% {-webkit-text-stroke-color: #e8ff00}
+  20% {-webkit-text-stroke-color: #5dff00}
+  30% {-webkit-text-stroke-color: #00ff2e}
+  40% {-webkit-text-stroke-color: #00ffb9}
+  50% {-webkit-text-stroke-color: #00b9ff}
+  60% {-webkit-text-stroke-color: #002eff}
+  70% {-webkit-text-stroke-color: #5d00ff}
+  80% {-webkit-text-stroke-color: #e800ff}
+  90% {-webkit-text-stroke-color: #ff008b}
+  100% {-webkit-text-stroke-color: #ff0000}
+}
